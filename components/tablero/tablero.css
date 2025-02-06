@@ -1,4 +1,33 @@
 .div-tablero {
-   
-    background-color: rgb(57, 71, 71);
+    background-color: rgb(252, 253, 253);
+}
+.carta {
+
+    border: 1px solid #333;
+    border-radius: 8px; 
+    font-size: 2rem;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+
+}
+
+.carta:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+
+}
+
+.divtablero{
+    margin:3rem;
+    display: grid;
+    grid-template-columns: repeat(8,8rem);
+    grid-template-rows: repeat(8,13rem);
+    gap:2rem;
 }
