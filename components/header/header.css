@@ -1,4 +1,36 @@
 .div-header {
-    
-    background-color: rgb(221, 93, 19);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(175, 104, 125);
+    padding: 10px;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+.div-cartita{
+    width: 50px;
+    height: 50px;
+}
+.div-h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+
+}
+
+.div-niveles {
+    display: flex;
+    gap: 1rem;
+}
+
+.niveles {
+    width: 30px;
+    height: 30px;
+    background-color: #43b9b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+
 }
