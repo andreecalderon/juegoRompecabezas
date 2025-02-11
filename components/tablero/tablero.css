@@ -21,6 +21,8 @@
 .carta:hover {
     transform: translateY(-5px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    transition: 0.3s;
+    border: 2px solid red;
 
 }
 
@@ -30,4 +32,8 @@
     grid-template-columns: repeat(8,8rem);
     grid-template-rows: repeat(8,13rem);
     gap:2rem;
+}
+
+.marcado {
+    background-color: red;
 }
