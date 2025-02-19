@@ -1,3 +1,6 @@
+let cartasVolteadas = [];
+let parejasEncontradas = 0;
+
 function manejarVolteo(carta) {
     if (cartasVolteadas.length < 2 && !carta.classList.contains("volteada")) {
         carta.classList.add("volteada");
@@ -24,3 +27,4 @@ function verificarPareja() {
 
 export { manejarVolteo };
 export { verificarPareja };
+
